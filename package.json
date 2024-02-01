@@ -1,15 +1,29 @@
 {
-  "name": "oj_personalsite",
+  "name": "oliviajarman",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple website for a CV, personal writing, etc. etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy",
     "serve": "npx @11ty/eleventy --serve"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ocjarman/oj_personalsite"
+  },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Olivia Jarman",
+    "email": "ocjarman@gmail.com",
+    "url": ""
+  },
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocjarman/oj_personalsite/issues"
+  },
+  "homepage": "https://github.com/ocjarman/oj_personalsite#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   }
